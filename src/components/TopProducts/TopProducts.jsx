@@ -27,7 +27,7 @@ const ProductsData = [
   },
 ];
 
-function TopProducts() {
+function TopProducts({ handleOrderPopup }) {
   return (
     <div>
       <div className="container">
@@ -48,7 +48,7 @@ function TopProducts() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center">
           {ProductsData.map((data) => (
             <div
-            data-aos="zoom-in"
+              data-aos="zoom-in"
               className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
               key={data.id}
             >
@@ -75,6 +75,7 @@ function TopProducts() {
                 </p>
                 <button
                   className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
+                  onClick={handleOrderPopup }
                 >
                   Order Now
                 </button>
