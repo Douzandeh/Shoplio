@@ -1,29 +1,32 @@
 import Slider from "react-slick";
-
+import user1 from "../../assets/users/avatar1.png";
+import user2 from "../../assets/users/avatar2.png";
+import user3 from "../../assets/users/avatar3.png";
+import user4 from "../../assets/users/avatar4.png";
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
+    name: "Ethan Anderson",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    img: user1,
   },
   {
     id: 2,
-    name: "Satya Nadella",
+    name: "Emily Carter",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    img: user2,
   },
   {
     id: 3,
-    name: "Virat Kohli",
+    name: "Daniel Brooks",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    img: user3,
   },
   {
-    id: 5,
-    name: "Sachin Tendulkar",
+    id: 4,
+    name: "Sophia Bennett",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
+    img: user4,
   },
 ];
 
